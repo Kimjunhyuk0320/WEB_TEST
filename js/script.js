@@ -74,8 +74,10 @@ $(function() {
 
   $('#btn1').on('click', function() {
     alert('Click')
+    window.open('https://www.mmca.go.kr/', '전시회', 'width=600, height=900')
 })
 $('#btn2').on('click', function() {
     alert('Click')
+    window.open('https://booking.mmca.go.kr/product/performance', '전시회', 'width=600, height=900')
 })
 })
