@@ -3,7 +3,7 @@
   width: 960px;
   height: 640px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 
@@ -139,7 +139,7 @@ header{
   align-items: center;
   padding: 10px;
   background-color: #352F44;
-  height: 40px;
+  height: 55px;
 }
 a{ text-decoration: none; color: black;}
 .util-menu a{
@@ -159,7 +159,7 @@ header .menu{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 80px;
   background-color: #faf3ec;
   clear: both;
 }
@@ -167,7 +167,7 @@ header .menu{
 
 .menu .menu-center ul{
   display: flex;
-  column-gap: 40px;
+  column-gap: 70px;
   font-size: 20px;
 }
 
@@ -274,7 +274,7 @@ height: 400px;
 }
 /* 섹션 4 */
 .intro2{
- 
+ margin-top: 100px;
 }
 .intro2 .intro-container{
   width: 960px;
@@ -316,15 +316,18 @@ footer{
   width: 100%;
   height: 460px;
   background-color: #211f27;
+  position: relative;
 }
 footer .menu{
   position: relative;
   display: flex;
   column-gap: 60px;
   top: 50px;
-  left: 500px;
+  left: 20%;
 }
+
 footer .menu li{
+
   margin: 30px;
   font-size: 20px;
   color: white;
@@ -340,7 +343,7 @@ footer .copy{
 
 footer select{
   position: relative;
-  top: -120px;
-  left: 1400px;
-  padding: 10px 20px;
+  top: 30px;
+  left: 0;
+  padding: 10px 15px;
 }
